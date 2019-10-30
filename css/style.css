@@ -135,6 +135,10 @@ hr{
     width: 100%;
 }
 
+.nopad{
+    padding: 0;
+}
+
 .storybox{
     background-color: white;
     color: #5F002B;
