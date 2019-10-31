@@ -17,29 +17,34 @@
 
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navcontrol">
-            <a class="navbar-brand ml-0" href="#"><img src="./images/MuzzlesLogo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item mx-4 active">
-                        <a class="nav-link navcontrol" href="about.html">About<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item mx-4 active">
-                        <a class="nav-link navcontrol" href="menu.html">Menu</a>
-                    </li>
-                    <li class="nav-item mx-4 active">
-                        <a class="nav-link navcontrol" href="catering.html">Catering</a>
-                    </li>
-                    <li class="nav-item mx-4 active">
-                        <a class="nav-link navcontrol" href="photos.html">Photos</a>
-                    </li>
-                </ul>
+        <div class="container">
+            <div class="row mb-4 mt-2">
+                <div class="col-2">
+                    <a href="/index.html" img src="/images/MuzzlesLogo.png" class="img-fluid"><img
+                            src="/images/MuzzlesLogo.png" class="img-fluid"></a>
+                </div>
+                <div class="col-10">
+                    <nav class="navbar navbar-expand-lg  endRight navBarMenu">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse endRight navBarMenu" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link active fugazLink mx-3" href="/about.html">About<span
+                                        class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link fugazLink mx-3" href="/menu.html">Menu</a>
+                                <a class="nav-item nav-link fugazLink mx-3" href="catering.html">Catering</a>
+                                <a class="nav-item nav-link fugazLink ml-3" href="/photos.html">Photo</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
             </div>
-        </nav>
+        </div>
+
 
         <div class="row">
             <img class="col-5 img-fluid ml-5" src="./images/AboutMain.jpg" alt="">
@@ -189,23 +194,23 @@
 
     <div class="container">
         <footer>
-                    <div class="row pt-5">
-                        <div class="col-11">
-                            <p class="montauk">1357 Mutt Street, Rottweiler CA. 12345</p>
-                        </div>
-                        <div class="col-1">
-                            <img src="/images/CompanyLogo.png" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-9">
-                            <p class="montauk">Phone: 123-456-7890</p>
-                        </div>
-                        <div class="col-3">
-                            <p class="montauk px-0 mx-0">Copyright © Muzzles Restaurant</p>
-                        </div>
-                    </div>
-            </footer>
+            <div class="row pt-5">
+                <div class="col-11">
+                    <p class="montauk">1357 Mutt Street, Rottweiler CA. 12345</p>
+                </div>
+                <div class="col-1">
+                    <img src="/images/CompanyLogo.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-9">
+                    <p class="montauk">Phone: 123-456-7890</p>
+                </div>
+                <div class="col-3">
+                    <p class="montauk px-0 mx-0 d-flex justify-content-end">Copyright © Muzzles Restaurant</p>
+                </div>
+            </div>
+        </footer>
     </div>
 
 

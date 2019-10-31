@@ -15,7 +15,7 @@ body{
     height: auto;
     width: 100%;
     background-size: cover;
-    background-position: fill;
+    background-position: center;
 }
 
 #catering1{
@@ -78,10 +78,24 @@ hr{
 .fugaz{
     font-family: 'Fugaz One', cursive;
     font-size: 20px;
+    color: #5F002B;
 }
 .fugazMenu{
     font-family: 'Fugaz One', cursive;
     font-size: 50px;
+    color: #5F002B;
+}
+
+.fugazMenu0{
+    font-family: 'Fugaz One', cursive;
+    font-size: 35px;
+    color: #5F002B;
+}
+
+.montauk0{
+    font-family: 'Montauk';
+    font-size: 13px;
+    color: #5F002B;
 }
 
 .montauk{
@@ -93,6 +107,7 @@ hr{
 .montaukHeader{
     font-family: 'Montauk';
     font-size: 25px;
+    color: #5F002B;
 }
 
 .navBarMenu{
